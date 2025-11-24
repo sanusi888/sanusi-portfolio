@@ -10,23 +10,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#ffffff;            /* white background */
-      --card:#f0f4f8;          /* light card background */
-      --muted:#6b7280;         /* secondary text */
-      --accent:#3b82f6;        /* blue accent */
-      --accent-2:#60a5fa;      /* lighter blue for gradient */
-      --glass: rgba(255,255,255,0.8);
+      --bg:#0b1221;            /* page background (matches your portfolio dark theme) */
+      --card:#0f1724;          /* card background */
+      --muted:#94a3b8;         /* secondary text */
+      --accent:#06b6d4;        /* cyan accent */
+      --accent-2:#2563eb;      /* blue for CTAs */
+      --glass: rgba(255,255,255,0.03);
       --radius:14px;
       --maxw:980px;
     }
 
     *{box-sizing:border-box}
-    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#1f2937;background:var(--bg);}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#e6eef8;background:var(--bg);}
 
-    .wrap{max-width:var(--maxw);margin:48px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.8), rgba(240,244,248,0.8));border-radius:18px;box-shadow:0 10px 40px rgba(0,0,0,0.1);}
+    .wrap{max-width:var(--maxw);margin:48px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.02));border-radius:18px;box-shadow:0 10px 40px rgba(2,6,23,0.6);}
 
     .top{display:flex;gap:20px;align-items:center}
-    .avatar{width:104px;height:104px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-weight:700;color:#ffffff;font-size:28px}
+    .avatar{width:104px;height:104px;border-radius:14px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-weight:700;color:#04263b;font-size:28px}
 
     .header{flex:1}
     h1{margin:0;font-size:24px;font-weight:800;letter-spacing:-0.2px}
@@ -34,15 +34,15 @@
 
     .contact{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;color:var(--muted);font-size:14px}
     .contact a{color:inherit;text-decoration:none}
-    .pill{background:var(--glass);padding:8px 12px;border-radius:999px;font-weight:600;color:#1e3a8a}
+    .pill{background:var(--glass);padding:8px 12px;border-radius:999px;font-weight:600;color:#dff6fb}
 
     .grid{display:grid;grid-template-columns:1fr 320px;gap:28px;margin-top:26px}
 
     /* left column (main) */
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.8), rgba(240,244,248,0.8));padding:18px;border-radius:12px}
-    h2{margin:0 0 10px 0;font-size:16px;color:var(--accent)}
-    p{color:#1f2937;margin:0 0 12px 0}
-    ul{margin:0 0 12px 16px;padding:0;color:#1f2937}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(0,0,0,0.03));padding:18px;border-radius:12px}
+    h2{margin:0 0 10px 0;font-size:16px;color:#cfeafe}
+    p{color:#c7d6e6;margin:0 0 12px 0}
+    ul{margin:0 0 12px 16px;padding:0;color:#c7d6e6}
     li{margin-bottom:8px}
 
     /* right column (sidebar) */
@@ -51,7 +51,7 @@
 
     /* skills tags */
     .skills{display:flex;flex-wrap:wrap;gap:8px}
-    .tag{background:rgba(59,130,246,0.1);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--accent)}
+    .tag{background:rgba(255,255,255,0.02);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--muted)}
 
     /* work item */
     .work h4{margin:0;font-size:15px}
@@ -60,13 +60,13 @@
     /* CTA row */
     .cta{display:flex;gap:12px;align-items:center;margin-top:18px}
     .btn{padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700;display:inline-flex;gap:8px;align-items:center}
-    .btn-primary{background:var(--accent);color:white}
-    .btn-outline{border:1px solid rgba(59,130,246,0.3);color:var(--accent);background:transparent}
+    .btn-primary{background:var(--accent-2);color:white}
+    .btn-outline{border:1px solid rgba(255,255,255,0.06);color:#cfeafe;background:transparent}
 
     /* social icons row */
     .socials{display:flex;gap:10px;margin-top:6px}
-    .socials a{width:38px;height:38px;border-radius:10px;display:inline-grid;place-items:center;background:rgba(59,130,246,0.1);text-decoration:none}
-    .socials svg{width:18px;height:18px;fill:currentColor;color:var(--accent)}
+    .socials a{width:38px;height:38px;border-radius:10px;display:inline-grid;place-items:center;background:rgba(255,255,255,0.02);text-decoration:none}
+    .socials svg{width:18px;height:18px;fill:currentColor;color:#cfeafe}
 
     /* responsive */
     @media (max-width:920px){.grid{grid-template-columns:1fr}} 
@@ -84,6 +84,127 @@
   </style>
 </head>
 <body>
-<!-- The rest of the HTML remains unchanged -->
+  <div class="wrap">
+    <div class="top">
+      <div class="avatar">SOS</div>
+      <div class="header">
+        <h1>Sanusi Opeyemi Sanusi</h1>
+        <div class="role">Accountant | Data Analyst | Project Accountant</div>
+        <div class="contact">
+          <span class="pill">Ilorin, Kwara State, Nigeria</span>
+          <span class="muted">opeyemisanusisanusi@gmail.com</span>
+          <span class="muted">+2349135792190</span>
+          <a class="muted" href="https://linkedin.com/in/sanusi-opeyemi-sanusi" target="_blank">LinkedIn</a>
+          <a class="muted" href="https://public.tableau.com/app/profile/sanusi.opeyemi/viz/SuperStore_16716181568230/SalesbySegment" target="_blank">Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div>
+        <div class="card">
+          <h2>Profile Summary</h2>
+          <p>Results-driven Accountant and Data Analyst with a B.Sc. in Accounting, National Diploma in Accountancy, AAT certification (ABWA/ICAN), and a professional ICAN student. Over 5 years’ combined experience in accounting, data analysis, and project finance across manufacturing, construction, and logistics sectors. Proven ability to deliver accurate reporting, streamline processes, and support multi-million-naira projects to completion. Skilled in SQL, Power BI, Tableau, Excel, and Microsoft Dynamics NAV. Committed to adding value through precision, efficiency, and data-driven decision-making.</p>
+
+          <h2>Work Experience</h2>
+          <div class="work">
+            <h4>Accountant / Project Accountant — KAM Holdings Ltd (Boity Construction Company)</h4>
+            <div class="muted">Feb 2024 – Present</div>
+            <ul>
+              <li>Manage daily accounting operations and ensure accuracy, compliance, and timely reporting.</li>
+              <li>Lead financial oversight of major projects including Hullmac Aluminium Company, Proforte Lithium Mining Factory, Eddy Current Sorting Machine Manufacturer, and Industrial Waste Screening Machine.</li>
+              <li>Monitor project costs, track budgets, and prepare financial reports supporting decision-making.</li>
+              <li>Develop automated reporting tools using Excel and Power BI, improving accuracy and efficiency.</li>
+            </ul>
+
+            <h4>Senior Accountant — Maztab Freight Forwarders Nig Ltd</h4>
+            <div class="muted">2021 – 2023</div>
+            <ul>
+              <li>Managed accounts payable/receivable, reconciliations, and statutory reporting.</li>
+              <li>Prepared monthly and annual financial statements improving executive visibility.</li>
+              <li>Collaborated with logistics teams to streamline invoicing and account processes.</li>
+              <li>Designed Excel/Power BI templates that reduced reporting time by 30%.</li>
+            </ul>
+          </div>
+
+          <h2>Selected Project</h2>
+          <ul>
+            <li><strong>SuperStore Sales Dashboard:</strong> Built interactive Tableau dashboard analyzing sales by segment and category for management insights.</li>
+          </ul>
+
+          <h2>Education</h2>
+          <ul>
+            <li><strong>B.Sc. Accounting</strong> – Kwara State University, Malete (2019)</li>
+            <li><strong>National Diploma in Accountancy</strong> – Kwara State Polytechnic, Ilorin (2014)</li>
+          </ul>
+
+          <h2>Certifications & Training</h2>
+          <ul>
+            <li>AAT (Accounting Technician Scheme West Africa), ABWA/ICAN</li>
+            <li>Professional student, Institute of Chartered Accountants of Nigeria (ICAN)</li>
+            <li>Currently enhancing skills in Python for data analysis (self-paced training)</li>
+          </ul>
+
+        </div>
+      </div>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h2>Key Skills</h2>
+          <div class="skills">
+            <span class="tag">SQL</span>
+            <span class="tag">Power BI</span>
+            <span class="tag">Tableau</span>
+            <span class="tag">Advanced Excel</span>
+            <span class="tag">Dynamics NAV</span>
+            <span class="tag">Financial Reporting</span>
+            <span class="tag">Budgeting & Forecasting</span>
+            <span class="tag">HTML (basic)</span>
+          </div>
+
+          <h2>Interests</h2>
+          <ul>
+            <li>Football (teamwork & leadership)</li>
+            <li>Chess (strategic & analytical thinking)</li>
+            <li>Scrabble (critical thinking & vocabulary)</li>
+          </ul>
+
+          <div style="margin-top:8px">
+            <div class="cta">
+              <a class="btn btn-primary" href="resume.pdf" download>
+                <!-- Download icon (inline SVG) -->
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M5 20h14v-2H5v2zm7-18l-5 5h3v6h4v-6h3l-5-5z"/></svg>
+                Download CV
+              </a>
+              <a class="btn btn-outline" href="#contact">Contact</a>
+            </div>
+
+            <div class="socials">
+              <a href="https://linkedin.com/in/sanusi-opeyemi-sanusi" target="_blank" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6 1.1 6 0 4.88 0 3.5 0 2.12 1.12 1 2.48 1c1.38 0 2.5 1.12 2.5 2.5zM.5 8h4v14h-4V8zM9 8h3.8v2h.1c.5-.9 1.9-1.8 3.9-1.8 4.1 0 4.9 2.7 4.9 6.2V22h-4v-6.5c0-1.6 0-3.7-2.3-3.7-2.3 0-2.6 1.7-2.6 3.6V22H9V8z"/></svg>
+              </a>
+              <a href="https://github.com/yourprofile" target="_blank" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.7.5.9 5.3.9 11.6c0 4.6 3 8.4 7.2 9.7.5.1.7-.2.7-.5v-1.8c-2.9.7-3.5-1.2-3.5-1.2-.5-1.2-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.6 1 1.6 1 .9 1.6 2.3 1.1 2.9.8.1-.7.4-1.1.7-1.4-2.3-.3-4.7-1.1-4.7-5 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.4.1-2.9 0 0 .9-.3 3 .9.9-.3 1.8-.5 2.7-.5.9 0 1.8.2 2.7.5 2.1-1.2 3-1 3-1 .6 1.5.2 2.6.1 2.9.7.7 1.1 1.6 1.1 2.8 0 3.9-2.4 4.7-4.7 5 .4.3.8 1 .8 2v3c0 .3.2.6.7.5 4.1-1.3 7.1-5 7.1-9.7C23.1 5.3 18.3.5 12 .5z"/></svg>
+              </a>
+              <a href="mailto:opeyemisanusisanusi@gmail.com" aria-label="Email">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 1.99 2H20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+              </a>
+              <a href="https://wa.me/2349135792190" target="_blank" aria-label="WhatsApp">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11.9 11.9 0 0012 0C5.4 0 .1 5.3.1 11.9a11.7 11.7 0 001.6 5.6L0 24l6.8-1.8c1.6.9 3.4 1.4 5.2 1.4 6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.4-8.4zM12 21.6c-1.6 0-3.2-.4-4.6-1.1l-.3-.2-4.1 1.1 1.1-4.1-.2-.3C2.8 15 2.4 13.2 2.4 11.6 2.4 6 6.8 1.6 12.4 1.6c3.3 0 6.3 1.3 8.6 3.6 2.2 2.2 3.6 5.2 3.6 8.6-.1 5.6-4.5 10-10.6 10z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:14px">
+          <h2>Referees</h2>
+          <p class="muted">Available on request</p>
+        </div>
+      </aside>
+    </div>
+
+    <div id="contact" style="margin-top:22px;text-align:center;color:var(--muted);font-size:13px">Created for <strong>Sanusi Opeyemi Sanusi</strong> — Print friendly & ready for GitHub Pages.</div>
+
+  </div>
 </body>
 </html>
