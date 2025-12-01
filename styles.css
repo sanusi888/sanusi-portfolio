@@ -271,7 +271,7 @@ header nav ul li a.active {
 }
 
 .core-skills-preview h2 {
-  color: #005f4f;
+  color: #e6f2ef;
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -340,7 +340,7 @@ header nav ul li a.active {
 }
 
 .projects-preview h2 {
-  color: #005f4f;
+  color: #e6f2ef;
   font-size: 2rem;
   margin-bottom: 40px;
 }
@@ -813,5 +813,6 @@ footer {
     height: 28px;
   }
 }
+
 
 
