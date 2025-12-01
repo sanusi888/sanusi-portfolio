@@ -814,5 +814,48 @@ footer {
   }
 }
 
+/* Kampala-style background for Core Skills */
+.core-skills-preview {
+  padding: 60px 24px;
+  background: linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #e6f2ef 25%,
+      #bfa34a 45%,
+      #005f4f 70%,
+      #ffffff 100%
+  );
+  text-align: center;
+  border-radius: 40px 40px 0 0;
+  margin-top: 40px;
+  background-size: 400% 400%;
+  animation: kampalaMove 18s ease infinite;
+}
+
+/* Kampala-style background for Project Preview */
+.projects-preview {
+  padding: 60px 24px;
+  background: linear-gradient(
+      135deg,
+      #ffffff 0%,
+      #e6f2ef 25%,
+      #bfa34a 45%,
+      #005f4f 70%,
+      #ffffff 100%
+  );
+  text-align: center;
+  border-radius: 40px 40px 0 0;
+  margin-top: 40px;
+  background-size: 400% 400%;
+  animation: kampalaMove 18s ease infinite;
+}
+
+/* Animated Kampala fabric effect */
+@keyframes kampalaMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 
 
