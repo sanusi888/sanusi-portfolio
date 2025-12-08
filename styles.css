@@ -64,7 +64,7 @@ nav a.active {
    Hero Section
 ============================= */
 .hero {
-  background: #b9e3a3;
+  background: #d5f7d7;
   text-align: center;
   max-width: 900px;
   margin: 80px auto;
@@ -252,7 +252,7 @@ nav a.active {
    Footer
 ============================= */
 .footer {
-  background: #b9e3a3;
+  background: #d5f7d7;
   margin-top: 60px;
   padding: 40px 20px;
   color: var(--light);
@@ -508,6 +508,7 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
 
 
