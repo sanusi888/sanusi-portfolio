@@ -18,8 +18,8 @@
 }
 
 body {
-  background: var(--dark);
-  color: var(--light);
+  background: #fefefc;
+  color: #033d33;
   line-height: 1.6;
 }
 
@@ -507,4 +507,5 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
