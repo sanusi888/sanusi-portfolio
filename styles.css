@@ -32,7 +32,7 @@ img {
    Header / Navigation
 ============================= */
 header {
-  background: transparent;
+  background: #18ba9f;
   padding: 16px 0;
   width: 100%;
   position: absolute;
@@ -511,6 +511,7 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
 
 
