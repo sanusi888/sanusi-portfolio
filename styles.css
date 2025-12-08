@@ -145,7 +145,7 @@ nav a.active {
 }
 
 .skill-card {
-  background: #1e293b;
+  background: #d1f5bf;
   border-radius: 12px;
   padding: 16px;
   text-align: center;
@@ -207,7 +207,7 @@ nav a.active {
 }
 
 .project-card {
-  background: #1e293b;
+  background: #d1f5bf;
   border-radius: 12px;
   padding: 16px;
   text-align: center;
@@ -507,5 +507,6 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
 
