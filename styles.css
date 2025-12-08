@@ -89,7 +89,7 @@ nav a.active {
 }
 
 .hero p {
-  color: var(--gray);
+  color: #2e415c;
   font-size: 15px;
   margin-bottom: 24px;
 }
@@ -138,7 +138,7 @@ nav a.active {
 .skills-section h2 {
   font-size: 32px;
   margin-bottom: 24px;
-  color: var(--accent);
+  #2e415c;
 }
 
 .skills-grid {
@@ -200,7 +200,7 @@ nav a.active {
 .projects-section h2 {
   font-size: 32px;
   margin-bottom: 24px;
-  color: var(--accent);
+  color: #2e415c;
 }
 
 .projects-grid {
@@ -510,6 +510,7 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
 
 
