@@ -38,7 +38,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  border-radius: 40px 40px 0 0;
+  border-radius: 0 0 40px 40px;
 }
 
 nav ul {
@@ -69,8 +69,9 @@ nav a.active {
   text-align: center;
   width: 100%;
   margin: 80px auto;
-  padding-top: 100px;
+  padding: 60px 24px 20px
   border-radius: 40px 40px 0 0;
+  margin-top: 60px;
 }
 
 .profile-pic {
@@ -510,6 +511,7 @@ nav a.active {
 @media (max-width: 600px) {
   .skills-grid, .projects-grid { grid-template-columns: 1fr; }
 }
+
 
 
 
